@@ -1,4 +1,4 @@
-# Chat App MVVM + Clean Architecture
+# Chat App MVVM + Clean Architecture [![CodeFactor](https://www.codefactor.io/repository/github/ucdevinda123/chatapp-clean-mvvm/badge)](https://www.codefactor.io/repository/github/ucdevinda123/chatapp-clean-mvvm)
 This  Android application built using MVVM + Clean Architecture architecture approach and is written 100% in Kotlin.
 App uses FireBaseRealTime Database
 # Architecture behind the app:
