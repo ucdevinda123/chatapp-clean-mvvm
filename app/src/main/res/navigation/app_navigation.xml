@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_navigation.xml"
+    app:startDestination="@id/registerUserFragment">
+
+    <fragment
+        android:id="@+id/friendsFragment"
+        android:name="com.app.chopechatdemo.presentation.ui.friends.FriendsFragment"
+        android:label="FriendsFragment" >
+        <action
+            android:id="@+id/action_friendsFragment_to_chatRoomFragment"
+            app:destination="@id/chatRoomFragment" />
+        <argument
+            android:name="user"
+            app:argType="com.app.chopechatdemo.data.dto.User" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/chatRoomFragment"
+        android:name="com.app.chopechatdemo.presentation.ui.chatroom.ChatRoomFragment"
+        android:label="ChatRoomFragment" >
+
+        <argument
+            android:name="user"
+            app:argType="com.app.chopechatdemo.data.dto.User" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerUserFragment"
+        android:name="com.app.chopechatdemo.presentation.ui.auth.RegisterUserFragment"
+        android:label="RegisterUserFragment" >
+        <action
+            android:id="@+id/action_registerUserFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.app.chopechatdemo.presentation.ui.auth.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_friendsFragment"
+            app:destination="@id/friendsFragment" />
+        <argument
+            android:name="number"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+</navigation>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ChopeChatDemo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="join_with_us">Join  Us</string>
+    <string name="name">Name</string>
+    <string name="register_now">Join now</string>
+    <string name="continueto_log_in">Continue to log in</string>
+    <string name="this_is_a_message">This is a Message</string>
+    <string name="message">Message</string>
+</resources>

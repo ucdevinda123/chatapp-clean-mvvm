@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "430299559405",
+    "firebase_url": "https://chatapp-12723-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "chatapp-12723",
+    "storage_bucket": "chatapp-12723.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430299559405:android:e2d7e076dcbdc51380a3e4",
+        "android_client_info": {
+          "package_name": "com.app.chopechatdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430299559405-q7dhrm6jqpvrdfn35b83p49t1b5h3is3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.chopechatdemo",
+            "certificate_hash": "87159e6cdc05a9a3a9e4276c5042f0c89b2909f0"
+          }
+        },
+        {
+          "client_id": "430299559405-vg8ne1817jp8gkpig2p7malb8i3rbk6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMYSWSTHf5B6dfHXuReS41CtORbmEcgGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430299559405-vg8ne1817jp8gkpig2p7malb8i3rbk6d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

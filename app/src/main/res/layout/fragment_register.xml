@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".Register">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:text="@string/join_with_us"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/name"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:importantForAutofill="no"
+            android:maxLines="1"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+            android:background="@drawable/round_edit_text"
+            android:textSize="16sp"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:textColor="@color/black"
+            android:importantForAutofill="no"
+            android:id="@+id/edt_mobile"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/mobile_number"
+            android:inputType="number"
+            android:maxLines="1"
+            android:background="@drawable/round_edit_text"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+            android:textSize="16sp"
+            android:layout_height="50dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/register_now"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/round_button"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_login_already_registered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/continueto_log_in"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/round_button_black"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
