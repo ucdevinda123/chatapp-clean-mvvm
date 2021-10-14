@@ -36,18 +36,18 @@ Common : Resource Class
 
      Login : Already joined just need to enter mobile number and log in
      
-     ![Screenshot_20211014-083937](https://user-images.githubusercontent.com/4921099/137232691-b51e636d-9964-49e6-a029-50307311c498.png)
+   ![Screenshot_20211014-083937](https://user-images.githubusercontent.com/4921099/137232691-b51e636d-9964-49e6-a029-50307311c498.png)
 
      
      Friends : List Of contacts who already joined
-     ![Screenshot_20211014-084259](https://user-images.githubusercontent.com/4921099/137232726-9df9c656-8069-4de1-b83f-c90d9f1ee86e.png)
-     ![Screenshot_20211014-084458](https://user-images.githubusercontent.com/4921099/137232749-af173052-2671-4477-bc07-9b1d82624af6.png)
+   ![Screenshot_20211014-084259](https://user-images.githubusercontent.com/4921099/137232726-9df9c656-8069-4de1-b83f-c90d9f1ee86e.png)
+   ![Screenshot_20211014-084458](https://user-images.githubusercontent.com/4921099/137232749-af173052-2671-4477-bc07-9b1d82624af6.png)
 
      Chat Room : Click item and navigate to chat room and start chatting
 
 
-      ![Screenshot_20211014-084423](https://user-images.githubusercontent.com/4921099/137232775-00625b3d-e8bc-4cb5-98d8-2c2da99bc6e3.png)
-      ![Screenshot_20211014-084556](https://user-images.githubusercontent.com/4921099/137232787-24655f1b-fb44-44fa-8c60-f946d5af5faa.png)
+   ![Screenshot_20211014-084423](https://user-images.githubusercontent.com/4921099/137232775-00625b3d-e8bc-4cb5-98d8-2c2da99bc6e3.png)
+   ![Screenshot_20211014-084556](https://user-images.githubusercontent.com/4921099/137232787-24655f1b-fb44-44fa-8c60-f946d5af5faa.png)
 
 
 ### 3.)Check List
