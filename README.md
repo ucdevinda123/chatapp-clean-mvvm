@@ -35,12 +35,10 @@ Common : Resource Class
      Friends : List Of contacts who already joined
      Chat Room : Click item and navigate to chat room and start chatting
 
-### 3.)Challenges
-    1. Time constraint was a issue since office work and assingment :)
-    2. I kind of ran out of time on implementing more unit tests :(
 
 
-### 4.)Check List
+
+### 3.)Check List
 
 - **Ui Implementation** - Done
 - **SOLID implementation** - Done MVVM with Clean Architecture
